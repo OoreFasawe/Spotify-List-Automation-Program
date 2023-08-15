@@ -14,8 +14,8 @@ from pprint import pprint
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="41c371789e154210b93fb486fe94b020",
-                                                           client_secret="0f43d35a3a48474bb790cc178e28ba31"))
+sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="",
+                                                           client_secret=""))
 
 pd.set_option("display.max_rows", None, "display.max_columns", None) # allow pandas pring entire df
 
